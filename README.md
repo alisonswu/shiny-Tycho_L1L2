@@ -1,4 +1,4 @@
-## A shiny app to for exploring Project Tycho data at L1 and L2 level 
+## A shiny app for exploring Project Tycho data at L1 and L2 level 
 
 data credit: [Project Tycho](https://www.tycho.pitt.edu)
 
