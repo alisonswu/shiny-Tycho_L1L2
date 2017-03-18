@@ -1,8 +1,8 @@
 ## A shiny app to for exploring Project Tycho data at L1 and L2 level 
 
-Data credit: [Project Tycho](https://www.tycho.pitt.edu)
+data credit: [Project Tycho](https://www.tycho.pitt.edu)
 
-App Author: [Alison Wu](swu11@ncsu.edu)
+app author: [Alison Wu](swu11@ncsu.edu)
 
 
 ## Usage
