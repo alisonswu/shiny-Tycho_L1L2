@@ -189,7 +189,8 @@ plot5 <-function(df2_sub, year_select, city_select){
     plot_ly(df2_sub , x = week, y= number, group = event, type ="bar", source = "s5") %>%
         layout(
             title = paste("year = ", year_select,", city = ", city_select,  ", weekly counts"),
-            yaxis = list(title = 'cases'))
+            yaxis = list(title = 'cases'), 
+             margin = list(b = 150))
     
 }
     
