@@ -342,9 +342,9 @@ shinyServer(function(input, output) {
         
         
         # data for a specific city 
-        str = paste("week =", week_select)
+        str = paste('<br/>','<br/>',"week =", week_select)
         for(row in 1: nrow(df2_sub)){
-            str = paste(str, '<br/>','<br/>','<br/>', df2_sub$event[row], "url: ", df2_sub$url[row]) 
+            str = paste(str, '<br/>','<br/>', df2_sub$event[row], "url: ", df2_sub$url[row]) 
         }
         
         HTML(str)
@@ -442,9 +442,9 @@ shinyServer(function(input, output) {
         
         
         # data for a specific city 
-        str = paste("week =", week_select)
+        str = paste('<br/>','<br/>',"week =", week_select)
         for(row in 1: nrow(df2_sub)){
-            str = paste(str, '<br/>','<br/>','<br/>', df2_sub$event[row], "url: ", df2_sub$url[row]) 
+            str = paste(str, '<br/>','<br/>', df2_sub$event[row], "url: ", df2_sub$url[row]) 
         }
         
         HTML(str)
